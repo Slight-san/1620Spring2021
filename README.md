@@ -4,3 +4,4 @@ Wednesday, Overcast and Cold
 Friday, Clear and Cold 
 
 Saturday, Clear and Sunny :)
+Sunday, Sunny and some whispy clouds
