@@ -6,3 +6,5 @@ Friday, Clear and Cold
 Saturday, Clear and Sunny :)
 Sunday, Sunny and some whispy clouds
 Monday, cloudy and cold (30) 
+
+Wednesday, sunny and colddddd
