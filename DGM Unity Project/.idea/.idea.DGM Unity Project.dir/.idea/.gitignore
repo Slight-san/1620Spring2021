@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.DGM Unity Project.iml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\bryso\Git\1620Spring2021\DGM Unity Project\.idea\.idea.DGM Unity Project.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
