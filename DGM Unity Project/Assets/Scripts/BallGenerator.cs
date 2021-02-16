@@ -9,7 +9,7 @@ public class BallGenerator : MonoBehaviour
  
     IEnumerator Start()
     {
-        while (number < 10)
+        while (number < 11)
         {
             yield return new WaitForSeconds(0.5f);
             Instantiate(ball);
