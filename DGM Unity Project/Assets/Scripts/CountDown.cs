@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class CountDown : MonoBehaviour
 {
     public int number = 3;
-    public float holdTime = 1f;
+    public float holdTime = 1.2f;
     public Text countDownText;
     
     private WaitForSeconds wfsObj;
