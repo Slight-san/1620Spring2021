@@ -5,17 +5,27 @@ using UnityEngine;
 
 public class Conditionals : MonoBehaviour
 {
-    private int time = 50;
-    private int space = 36;
+    private int x = 50;
+    private int y = 36;
     
-   // if (time > 20)
+     // if (x > 20)
     {
-        Console.Writeline("time is forever");
+        Console.WriteLine("x is larger");
     }
-   // else
+    // else
     {
-        Console.Writeline("space is infinite");
+        Console.WriteLine("x is smaller");
     }
+
+    // if (y < 20)
+    {
+        Console.WriteLine("Y is smaller");
+    }
+    // else
+    {
+        Console.WriteLine("Y is bigger");
+    }
+        
 }
 
 
