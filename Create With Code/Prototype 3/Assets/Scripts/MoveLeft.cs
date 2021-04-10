@@ -6,8 +6,9 @@ public class MoveLeft : MonoBehaviour
 {
     private float speed = 30;
     private PlayerController playerControllerScript;
+    private float leftBound = -15;
 
-    void start()
+    void Start()
     {
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
@@ -18,6 +19,11 @@ public class MoveLeft : MonoBehaviour
         if (playerControllerScript.gameOver == false)
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);
+        }
+
+        if (transform.position.x < leftBound && gameObject.CompareTag("Obstacle"))
+        {
+            Destroy(gameObject);
         }
         
     }
