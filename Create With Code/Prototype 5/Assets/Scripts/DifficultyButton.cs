@@ -26,7 +26,7 @@ public class DifficultyButton : MonoBehaviour
     void SetDifficulty()
     {
         Debug.Log(button.gameObject.name + " was ckicked");
-        gameManger.StartGame();
+        gameManger.StartGame(difficulty);
         
     }
 }
