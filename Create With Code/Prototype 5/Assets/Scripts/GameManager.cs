@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
     public TextMeshProUGUI scoreText;
+    
     private int score;
     private float spawnRate = 1.0f;
     
