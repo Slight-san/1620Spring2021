@@ -6,6 +6,8 @@ public class DifficultyButton : MonoBehaviour
 {
     private Button button;
     private GameManager gameManger;
+
+    public int difficulty;
    
     void Start()
     {
