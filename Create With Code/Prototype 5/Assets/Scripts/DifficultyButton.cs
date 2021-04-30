@@ -9,11 +9,17 @@ public class DifficultyButton : MonoBehaviour
     void Start()
     {
         button = GetComponent<Button>();
+        button.onClick.AddListener(SetDifficulty);
     }
 
     
     void Update()
     {
         
+    }
+
+    void SetDifficulty()
+    {
+        Debug.Log(button.gameObject.name + " was ckicked");
     }
 }
