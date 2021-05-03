@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,12 +8,10 @@ public class PlayerController : MonoBehaviour
     private float forwardInput;
     void Update()
     {
-        //player input
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
-        //move the car forward
+        
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
-        //control turning
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
     }
 }
